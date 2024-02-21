@@ -1,4 +1,4 @@
-GUC Calculator API
+## GUC Calculator API
 
 The GUC Calculator API is a Java application that calculates the GPA for GUC students based on a list of courses and their grades. It uses a predefined set of grade values to calculate the GPA.
 
@@ -12,7 +12,8 @@ The GUC Calculator API is a Java application that calculates the GPA for GUC stu
 > To calculate the GPA, create a list of Course objects, each representing a course with its credit hours and grade. Then, pass this list to the calculateGPA method in the Calculator class.
 
 - Example Usage:
-    List <Course> courses = new ArrayList<>();
+  
+        List <Course> courses = new ArrayList<>();
         courses.add(new Course(6, "A"));
         courses.add(new Course(4, "B+"));
         courses.add(new Course(3, "A+"));
